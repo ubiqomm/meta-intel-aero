@@ -35,6 +35,8 @@ IMAGE_INSTALL += "packagegroup-airmap"
 # PX4
 IMAGE_INSTALL += "packagegroup-px4"
 
+IMAGE_INSTALL += "steering"
+
 # Allow to enumerate movidius devices
 IMAGE_INSTALL += "movidius"
 

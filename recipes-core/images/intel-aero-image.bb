@@ -55,6 +55,9 @@ IMAGE_INSTALL += "opencv"
 # PX4
 IMAGE_INSTALL += "packagegroup-px4"
 
+# Ubiqomm 
+IMAGE_INSTALL += "steering"
+
 # librealsense
 IMAGE_INSTALL += "librealsense"
 IMAGE_INSTALL += "librealsense-graphical-examples"

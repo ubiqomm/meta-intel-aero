@@ -18,4 +18,5 @@ BBLAYERS ?= " \
   ##OEROOT##/../meta-intel-realsense \
   ##OEROOT##/../meta-intel-aero-base \
   ##OEROOT##/../meta-intel-aero \
+  ##OEROOT##/../meta-ubiqomm \
   "

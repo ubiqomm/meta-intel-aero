@@ -23,6 +23,9 @@ IMAGE_INSTALL += "os-release"
 
 IMAGE_INSTALL += "openssh-sftp-server"
 
+# Steering
+IMAGE_INSTALL += "steering"
+
 # increase entropy right after boot so hostapd succeeds authentication
 IMAGE_INSTALL += "rng-tools"
 

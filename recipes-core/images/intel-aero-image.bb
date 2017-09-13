@@ -23,8 +23,8 @@ IMAGE_INSTALL += "os-release"
 
 IMAGE_INSTALL += "openssh-sftp-server"
 
-# Steering
-IMAGE_INSTALL += "steering"
+#ubi-track-from-aero-drone
+IMAGE_INSTALL += "ubi-track-from-aero-drone"
 
 # increase entropy right after boot so hostapd succeeds authentication
 IMAGE_INSTALL += "rng-tools"
